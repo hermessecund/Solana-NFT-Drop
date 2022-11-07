@@ -4,7 +4,7 @@ import { useProgram,useClaimNFT } from "@thirdweb-dev/react/solana";
 export default function Claim() {
     const wallet = useWallet();
     // Add the address of the contract you deployed earilier on
-    const programAddress = "4GnG5Q9Y2KQajGhUfUa21qbSNrisRaebHKWWPdhrM2Fj";
+    const programAddress = "3PHKaLH1QwP3jWbwBvn3PjhsW4b7cgpTPKbEKNwsgKJT";
     // Pasting the programAddress variable and the type of contract
     const program = useProgram(programAddress, "nft-drop");
     // using the useClaimNFT hook here
