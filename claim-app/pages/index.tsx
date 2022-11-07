@@ -1,5 +1,5 @@
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import { useProgram , useClaimNFT, useProrgamMetadata, use ClaimConditions } from "@thirdweb-dev/react/solana"
+import { useProgram , useClaimNFT, useProrgamMetadata, useClaimConditions } from "@thirdweb-dev/react/solana"
 import type { NextPage } from "next";
 import Claim from "../components/Claim";
 
